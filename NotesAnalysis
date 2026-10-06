@@ -26,3 +26,16 @@ WACC =  (% Equity x Cost of Equity) + (% Debt x Cost of Debt x (1 -Tax rate))
 risk free rate - rate of return you're guaranteed to get back
 beta - how volatile a stock is vs market
 expected market return - how much your expected  to return investing in market as %
+
+This project helped me understand how financial statements can be used to forecast a company's future cash flows and estimate what a business could be worth today.
+
+The model covers:
+
+- Historical financial analysis
+- Revenue and operating margin forecasts
+- Unlevered Free Cash Flow (UFCF)
+- Working capital, CapEx and D&A assumptions
+- WACC calculation
+- Terminal value
+- Enterprise value and equity value
+- Implied share price
