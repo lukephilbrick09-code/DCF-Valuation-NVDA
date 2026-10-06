@@ -1,1 +1,28 @@
+What is a DCF
+- valuation method that measures intrinsic value of a company based on sum opf presennt value of its future cash flows
 
+
+5 steps of building (from rareqliquid "how to build a discount valuation model from scratch" on youtube) 
+1. project future free cash flow
+2. calcuate WACC
+3. Calculate terminal value
+4. Discount back to present value
+5. calculate implied share price
+
+
+
+The first step is to project out FCF for 5-10 years by making assumptions on the company's revenue growth and EBIT margins. Next you calculate the terminal value by either using the exit multiple or perpetuity growth method (I used perpetuity growth)
+
+EBIT margins are EBIT (Earnings Before Interest and Taxes) divided by total revenue, showing operating profit as a percentage of sales. Used to se what you keep after expenses bar interest and tax
+
+You then discount back your project fcf and terminal value using your weighted average cost of capital (WACC) to the present value and sum them together.
+
+Terminal Value - The terminal value (TV) represents the estimated value of a company after the explicit forecast period ends.
+WACC - WACC is the average rate of return that a company needs to generate to satisfy its investors and lenders, based on how it is financed by equity and debt.
+
+WACC =  (% Equity x Cost of Equity) + (% Debt x Cost of Debt x (1 -Tax rate))	
+	Cost of Equity = Risk Free Rate + (Beta x (Expected Market Return - Risk Free Rate))							
+
+risk free rate - rate of return you're guaranteed to get back
+beta - how volatile a stock is vs market
+expected market return - how much your expected  to return investing in market as %
